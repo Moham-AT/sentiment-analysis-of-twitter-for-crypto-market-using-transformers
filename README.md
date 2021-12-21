@@ -1,4 +1,4 @@
-# sentiment-analysis-of-twitter-for-crypto-market-using-transformers
+# sentiment analysis of twitter for crypto market, using transformers
 this code is a simple and straightforward way to know what's going on on twitter about the cryptos.
 
 more precisely, i have used the twint library and transformer pipeline to analyse the sentiments of people on twitter in last 30 minutes. here, this analysis is about the bitcoin.
