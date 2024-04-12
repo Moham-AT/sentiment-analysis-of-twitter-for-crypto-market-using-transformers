@@ -1,11 +1,17 @@
-# sentiment analysis of twitter for crypto market, using transformers
-this code is a simple and straightforward way to know what's going on on twitter about the cryptos.
+# Real-Time Twitter Sentiment Analysis for Cryptocurrencies
 
-more precisely, i have used the twint library and transformer pipeline to analyse the sentiments of people on twitter in last 30 minutes. here, this analysis is about the bitcoin.
-tweets are fetched from twitter by twint. then they are preprocessed and finally the sentiments of them(positive or negative) are calculated through the transformer pipeline. 
+This project provides a simple yet effective approach to understanding the current sentiment on Twitter regarding cryptocurrencies, specifically Bitcoin.
 
-the analysis is then calculated in form of percent. for example 24% of all fetched tweets are positive and the others are negative. this number can be a good signal of what is going on in bitcoin curve in next minutes.
+## Overview
 
-i have also calculated the avarage number of tweets per minute and avarage number of people who tweet per minute. this numbers also can be meaningful signals.
+Utilizing the **Twint** library, we fetch recent tweets related to Bitcoin. These tweets are then preprocessed and analyzed using a **Transformer Pipeline** to determine their sentiment (positive or negative). The sentiment analysis is conducted for tweets from the last 30 minutes, providing a real-time snapshot of public opinion.
 
-this signals can be analysed with another ML model in order to create a trader bot or for market forecasting .
+## Analysis
+
+The sentiment analysis results are presented as a percentage. For instance, if 24% of all fetched tweets are positive, the remaining 76% are inferred as negative. This ratio serves as a potential indicator of the upcoming trend in the Bitcoin market.
+
+Additionally, we calculate the average number of tweets per minute and the average number of unique users tweeting per minute. These metrics can also serve as meaningful signals for market trends.
+
+## Application
+
+The signals derived from this analysis can be further processed using another Machine Learning model to develop a trading bot or for market forecasting purposes. This allows for more informed and data-driven decision-making in the volatile cryptocurrency market.
